@@ -1,0 +1,143 @@
+body{
+    background: #ffcc0080;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2, h3{
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.btn{
+    width: 250px;
+    color: #fff;
+    background: #00d9ff;
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color: #0295da;
+    cursor:  pointer;
+}
+
+span{
+    font-size: 1.2em;
+}
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+#task-list{
+    text-align: left;
+    margin-top: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+
+li{
+    list-style: none;
+    height: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #f8ca73;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #4EB9cd;
+}
+
+/* li:hover{
+    background: #76CFE0;
+} */
+
+li > button{
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #025f70;
+    font-weight: 800;
+}
+
+
+.remove-task{
+    float: right;
+    margin: 2px;
+    color: red;
+}
+.remove-task:hover{
+    color: #c21111;
+    font-size: 1.2em;
+    cursor:  pointer;
+}
+
+.checked-task{
+    float: right;
+    color: green;
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.checked-task:hover{
+    font-size: 1.5em;
+    cursor:  pointer;
+}
+
+.textarea{
+    border: none;
+    width: 450PX;
+    border-radius: 5px;
+    padding: 20px 20px 0px;
+    font-size: 1.5em;
+}
+
+.textarea:focus{
+    outline-width: 2px;
+    outline-style: dashed;
+    outline-color: rgb(0, 153, 255);
+}
+
+hr{
+    width: 500px;
+}
+
+/* checked-list */
+
+#checked-list{
+    width: 500px;
+    min-width: 500px;
+    margin: auto;
+}
+
+#checked-list li{
+    text-align: left;
+    background-color: #81a5c2;
+}
+
+#checked-list .completed-at{
+    padding: 20px;
+    color: green;
+}
+
+#checked-list .remove-task{
+    float: right;
+}
+

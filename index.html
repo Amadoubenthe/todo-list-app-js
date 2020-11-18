@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Tâche</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+</head>
+<body>
+
+  <div id="content">
+
+    <div class="container">
+
+      <h1>Todo-List</h1>
+
+      <div class="">
+
+          <div class="columns">
+
+              <form action="#" id="form">
+                  <label for="addtask"></label>
+                  <textarea id="addtask" class="textarea" placeholder="Add task"></textarea><br>
+                  <input type="submit" class="btn" value="Add Task">
+              </form>
+
+          </div>
+
+          <div class="">
+
+            <h2>All Tasks</h2>
+            <p>Click on <span class="green">"✓"</span> to complete your task</p>
+            <p>Click on <span class="red">"X"</span> to delete your task</p>
+            <div id="task-list"></div>
+            <hr />
+
+            <h3>Completed Tasks</h3>
+
+            <div id="checked-list"></div> 
+          </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
